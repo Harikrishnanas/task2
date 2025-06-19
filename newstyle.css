@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-image: url(bg3.jpg); 
+}
+
+
+.card{
+    width: 250px;
+   
+    background-image: url(bg4.jpg);
+    border-radius: 15px;
+    
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.image{
+    border-radius: 50%;
+    
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width:100px;
+    height:100px;
+
+}
+
+.card h2{
+    margin-top: 15px;
+    font-size: 24px;
+    color: azure;
+}
+
+.role{
+    font-size: 18px;
+    color: #54eb36;
+    margin: 5px 0;
+}
+
+.vision{
+    font-size: 14px;
+    color: aliceblue;
+    margin: 10px 0;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    
+}
+
+.skills span {
+    background-color: #04270a;
+    color: #f3efef;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+.pic {
+    margin-top: 15px;
+}
+
+.pic img {
+  width: 35px;
+  margin: 0 10px;
+  
+  
+}
+
+.pic img:hover {
+  filter: none;
+}
